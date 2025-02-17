@@ -1,0 +1,101 @@
+/* Import modern eco-friendly font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Soft green gradient */
+}
+
+/* Center content */
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Card design */
+.card {
+    background: #ffffff; 
+    padding: 30px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 100, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 25px rgba(0, 100, 0, 0.3);
+}
+
+/* Headings */
+h1 {
+    font-size: 2.2rem;
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+}
+
+td {
+    background: #f1f8e9;
+}
+
+/* Note for trading */
+.note {
+    font-size: 1rem;
+    color: #388E3C;
+    background: #E8F5E9;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #43A047;  /* Green shade */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #388E3C;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #2E7D32;
+    transform: scale(1);
+}

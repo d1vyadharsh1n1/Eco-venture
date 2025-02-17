@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    background: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Flashcard or Block Styles for Companies */
+.company-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.company-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px; /* Fixed width */
+    text-align: left;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.company-card:hover {
+    transform: scale(1.05);
+}
+
+.company-card strong {
+    font-size: 1.2em;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.company-card p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* End of Flashcard Styles */
